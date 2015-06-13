@@ -6,7 +6,7 @@ body {
 #home {
   height: 400px;
   margin-bottom: 60px;
-  background: url(http://127.0.0.1:8020/pizza/css/img/Supreme_pizza_1600.jpg) 50% 50% / cover fixed;
+  background: url(../img/Supreme_pizza_1600.jpg) 50% 50% / cover fixed;
   width: 100%;
   display: inline-block;
   margin-top: -72px;
@@ -60,7 +60,7 @@ h1 {
   min-height: 250px;
   margin-bottom: 60px;
   padding: 20px 0px;
-  background: url(http://127.0.0.1:8020/pizza/img/staticmap.png) 50% 50% / cover;
+    background-color: rgb(229, 227, 223);
   width: 100%;
   display: inline-block;
   z-index: 2;
