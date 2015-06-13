@@ -1,0 +1,89 @@
+body {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+#home {
+  height: 400px;
+  margin-bottom: 60px;
+  background: url(http://127.0.0.1:8020/pizza/css/img/Supreme_pizza_1600.jpg) 50% 50% / cover fixed;
+  width: 100%;
+  display: inline-block;
+  margin-top: -72px;
+  padding-top: 70px;
+  max-height: 100%;
+  color: white;
+  text-shadow: black 0px 1px 1px;
+}
+
+#home .container {
+  position: relative;
+  height: 100%;
+}
+
+#welcomeMessage {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  right: 10%;
+  left: 10%;
+  color: white;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+#home h1 {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: Cinzel, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#home h3 {
+  display: inline-block;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 34px;
+}
+
+#home .btn {
+  text-shadow: none;
+  margin-bottom: 10px;
+}
+
+.btn {
+  white-space: normal;
+}
+
+#contactContent {
+  min-height: 250px;
+  margin-bottom: 60px;
+  padding: 20px 0px;
+  background: url(http://127.0.0.1:8020/pizza/img/staticmap.png) 50% 50% / cover;
+  width: 100%;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+
+#map-canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  min-height: 200px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#contactContent .container > div {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.631373);
+  width: 365px;
+  padding: 10px;
+  max-width: 100%;
+}
