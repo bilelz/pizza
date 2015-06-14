@@ -3,13 +3,16 @@ body {
   font-weight: 400;
 }
 
+img{
+	max-width: 100%;
+}
+
 #home {
-  height: 400px;
-  margin-bottom: 60px;
+  height: 550px;
   background: url(../img/Supreme_pizza_1600.jpg) 50% 50% / cover fixed;
   width: 100%;
   display: inline-block;
-  margin-top: -72px;
+  margin-top: -20px;
   padding-top: 70px;
   max-height: 100%;
   color: white;
