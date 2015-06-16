@@ -29,6 +29,7 @@ img{
 	height: 100%;
 	background: -webkit-linear-gradient(top, transparent , black);
 	background: -moz-linear-gradient(top, transparent , black); /* For Firefox 3.6 to 15 */
+	background: -ms-linear-gradient(top, transparent , black);
 	background: linear-gradient(top, transparent , black); /* Standard syntax */
 	opacity: .5;
 }
@@ -39,17 +40,48 @@ img{
   height: 100%;
 }
 
+
 #welcomeMessage {
-  position: absolute;
-  bottom: 0px;
-  text-align: center;
-  right: 10%;
-  left: 10%;
-  color: white;
+	//position: absolute;
+	bottom: 0px;
+	text-align: center;
+	right: 5%;
+	left: 5%;
+	color: white;
 }
 
-h1 {
-  
+
+#carte {
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#carte img{
+	vertical-align: top;
+}
+
+#carte1, #carte2{
+	width: 40%;
+}
+
+#carte3{
+	  width: 13.55%;
+}
+
+#carte4{
+	  width: 45%;
+}
+
+#carte5{
+	  width: 41%;
+}
+
+@media (max-width: 768px){
+	
+	#carte img{
+		width : 100%;
+	}
 }
 
 #home h1 {
